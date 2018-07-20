@@ -12,6 +12,8 @@ class SongsController < ApplicationController
   end
 
   def create
+    @song = Song.new(songs_params)
+    @song.save
   end
 
   def edit
@@ -22,5 +24,6 @@ class SongsController < ApplicationController
 
   private
     def songs_params
+      params.require(:song).permit(:name)
     end
 end
