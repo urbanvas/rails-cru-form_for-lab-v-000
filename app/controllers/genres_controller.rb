@@ -1,5 +1,6 @@
 class GenresController < ApplicationController
   def index
+    @genre = Grene.all
   end
 
   def show
