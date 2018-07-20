@@ -1,8 +1,5 @@
 Rails.application.routes.draw do
-<<<<<<< HEAD
   resources :genres
-=======
->>>>>>> 2ca20e79c78adc602ec78ced94a82dc2f8a7cb1d
   resources :songs
   resources :artists
   # The priority is based upon order of creation: first created -> highest priority.
