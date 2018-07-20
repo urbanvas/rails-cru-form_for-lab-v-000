@@ -18,6 +18,6 @@ class SongsController < ApplicationController
   end
 
   private
-    def artist_params
+    def songs_params
     end
 end
